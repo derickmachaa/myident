@@ -1,2 +1,2 @@
 # myident
-script to tell my identity over the net
+script to tell my IP over the net
