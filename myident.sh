@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 ###This scripts tells my identity over the Net
 #User Defined Variables
 
@@ -52,7 +52,7 @@ host_https=`whois $https_pub_id | grep -i "netname" | cut -d ":" -f 2`
 fi
 
 #print ip
-echo -e $red   " INTERFACE: $blue $i $RESET"         
+echo -e $red     "INTERFACE: $blue $i $RESET"         
 echo -e $cyan    "  LOCAL IP  :$RESET" $okegreen $localip $RESET
 echo -e $white   "    HTTP-PUBLIC IP :$RESET" $http_pub_id "<>" $host_http | $color
 echo -e $okegreen"      HTTPS-PUBLIC IP :$RESET" $https_pub_id "<>" $host_https
